@@ -4,7 +4,6 @@ body {
   padding: 0;
   background: #fff;
   color: #111;
-  line-height: 1.6;
 }
 header {
   background: #fff;
@@ -50,6 +49,10 @@ nav a {
   padding: 1rem 0;
   border-bottom: 1px solid #eee;
 }
+.pro-list img {
+  width: 100%;
+  border-radius: 8px;
+}
 .subscribe input[type='email'] {
   padding: 0.5rem;
   width: 250px;
@@ -71,5 +74,4 @@ footer {
 footer a {
   color: #444;
   text-decoration: none;
-  margin: 0 0.5rem;
 }
