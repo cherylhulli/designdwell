@@ -1,0 +1,75 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #111;
+  line-height: 1.6;
+}
+header {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #eee;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+}
+.hero {
+  background: #e5e5e5;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+.hero-text h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+.hero-text p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.section {
+  padding: 3rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+.feature-image {
+  width: 100%;
+  margin: 2rem 0;
+  border-radius: 8px;
+}
+.pro-list div {
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+.subscribe input[type='email'] {
+  padding: 0.5rem;
+  width: 250px;
+  margin-right: 1rem;
+}
+.subscribe button {
+  padding: 0.5rem 1rem;
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+footer {
+  background: #f8f8f8;
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+footer a {
+  color: #444;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
